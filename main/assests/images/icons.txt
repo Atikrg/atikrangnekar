@@ -1,0 +1,4 @@
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-medium"></i>
+<i class="fa-brands fa-github"></i>

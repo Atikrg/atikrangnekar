@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    text-decoration: none;
+}
+
+.card-img{
+    overflow: hidden;
+}
+
+.card-img img{
+    transition: all 1.5s ease;
+}
+
+.card-img:hover img{
+    transform:scale(1.5);
+}
+
+.skills-header,
+.project-container,
+.aboutme-header,
+.project-header,
+.contact-container 
+,nav{
+    font-family: 'Cairo', sans-serif;
+}
+
+.navItems {
+    margin-left: 594px;
+}
+.my-container {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.aboutme-container{
+    margin-top: 155px;
+}
+.project-container{
+    margin-top: 59px;
+}
+.aboutme_header{
+    font-size: 45px;
+    font-family: 'Neucha', cursive;
+}
+
+
+.personal_info_top{
+    text-align: justify;
+    font-family: 'Neucha', cursive !important;
+    margin: 12px;
+}
+.aboutme_right{
+    letter-spacing: normal;
+    margin-left: 36px;
+    font-size: 24px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.personal_info{
+    margin-top: 12px;
+}
+.myprofile{
+    height: 550px;
+    width: 450px;
+}
+.aboutme_email:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.personal-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+.personal_info_bottom{
+    margin-top: 34px;
+}
+
+
+.skill-header{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.skill-component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.progress{
+    width: 425px;
+}
+.aboutme_email{
+    border: 4px solid rgb(186, 182, 182);
+    margin-top: 55px;
+    padding: 8px;
+    border-radius: 34px;
+    cursor: pointer;
+    margin-left: 24px;
+}
+.a_link{
+    text-decoration: none;
+    color: white;
+}
+
+.a_link:hover{
+    text-decoration: none !important;
+}
+.content {
+    overflow: hidden;
+    margin-top: 16%;
+    height: 280px;
+}
+
+.brand {
+    color: rgb(244, 244, 244);
+    margin-bottom: 14px;
+    
+}
+
+
+
+
+
+
+
+.my-info {
+    color: white;
+    font-size: 48px;
+
+}
+
+
+
+.brand,
+.my-info,
+.motive {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    justify-content: center;
+}
+
+
+.brand-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 115px;
+}
+
+
+.project-components {
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+.motive {
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: wheat;
+}
+
+
+
+
+.img {
+    height: auto;
+    max-width: 390px;
+}
+
+.aboutme-header,
+.skills-header,
+.project-header {
+    margin: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.project-components {
+    height: auto;
+}
+
+.project-card {
+    width: 390px;
+    margin: 12px;
+}
+
+.title-content {
+    margin: 22px 12px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    opacity: 65%;
+
+}
+
+.card-description,
+.card-title,
+.project-footer {
+    margin-left: 12px;
+    padding: 8px;
+    font-size: 18px;
+}
+.view-project{
+    margin-left: 24px;
+}
+
+.btn_view{
+    width: 124px;
+    
+}
+
+.nav-background{
+    background-color: black;
+}
+.card-title {
+    font-weight: 900;
+    font-size: 34px;
+    color: black;
+}
+
+.project-footer {
+    display: flex;
+    opacity: 55%;
+    margin-right: 12px;
+}
+
+.left-footer,
+.right-footer {
+    font-size: 12px;
+}
+
+.right-footer {
+    margin-left: 6px;
+}
+
+.source-link {
+    text-decoration: none;
+}
+
+.aboutme-components{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 70vh ;
+
+    
+}
+
+.skill-container{
+    margin-top: 174px;
+    height: 85vh;
+}
+.contact-button {
+    padding: 6x;
+    margin: 14px;
+    width: 184px;
+    height: 40px;
+    font-size: 24px;
+    color:black;
+    border: none;
+    background-color: whitesmoke;
+    font-weight: 500;
+}
+
+.contact-button:hover{
+    color: white;
+    background: rgb(42, 199, 217);
+}
+
+.message-me {
+    width: 500px;
+    margin-left: 57%;
+    margin-top: 2%;
+}
+
+body {
+    min-height: 200vh;
+}
+
+.nav-scroll{
+    background-color:black;
+}
+
+
+.contact-container {
+    margin:34px;
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    height: 65vh;
+    clip-path: polygon(49% 0, 100% 0, 100% 100%, 25% 100%, 0 100%);
+  /*   clip-path: polygon(49% 0, 100% 0, 100% 100%, 20% 100%); */
+    background-color: black;
+    content: "";
+
+}
+
+.contact-header {
+    color: whitesmoke;
+    margin-left: 57%;
+
+}
+
+.contact-brand {
+    margin-top: 24px;
+    font-size: 44px;
+    width: 300px;
+}
+
+.email-input {
+    width: 440px;
+    height: 45px;
+    font-size: 24px;
+    border-radius: 4px;
+    margin: 4px;
+    border: none;
+    padding: 4px;
+    outline: none;
+    color: white;
+    background-color: black;
+    margin-left: 6px;
+
+}
+
+.underline-divider {
+    text-decoration: underline;
+    width: 420px;
+    height: 2px;
+    margin: 14px;
+
+    border-radius: 8px;
+    opacity: 65%;
+    background-color: rgb(227, 217, 217);
+}
+
+.textArea-contact:focus {
+    outline: none;
+}
+
+.textArea-contact {
+    padding: 6px;
+    height: 120px;
+    width: 440px;
+    font-size: 18px;
+    margin: 4px;
+    outline-style: none;
+    background-color: black;
+    color: rgb(224, 228, 232);
+
+}
+
+.sign-input {
+    width: 340px;
+    height: 45px;
+    font-size: 24px;
+    border-radius: 4px;
+    margin: 4px;
+    border: none;
+    padding: 4px;
+    outline: none;
+    background-color: black;
+    color: rgb(247, 210, 188);
+    margin-left: 6px;
+}
+
+.newsletter-form {
+    height: 300px;
+    width: 400px;
+    margin: 4px;
+    padding: 4px;
+}
